@@ -443,6 +443,136 @@ function colorMuda(desejo, elemento) {
     }
 }
 
+function mudaCorTxt(desejo, elemento) {
+
+    if (desejo === especificação.cor[0]) {
+
+        elemento.id = 'cor1';
+    }
+    if (desejo === especificação.cor[1]) {
+
+        elemento.id = 'cor2';
+    }
+    if (desejo === especificação.cor[2]) {
+
+        elemento.id = 'cor3';
+    }
+    if (desejo === especificação.cor[3]) {
+
+        elemento.id = 'cor4';
+    }
+    if (desejo === especificação.cor[4]) {
+
+        elemento.id = 'cor5';
+    }
+    if (desejo === especificação.cor[5]) {
+
+        elemento.id = 'cor6';
+    }
+    if (desejo === especificação.cor[6]) {
+
+        elemento.id = 'cor7';
+    }
+    if (desejo === especificação.cor[7]) {
+
+        elemento.id = 'cor8';
+    }
+    if (desejo === especificação.cor[8]) {
+
+        elemento.id = 'cor9';
+    }
+    if (desejo === especificação.cor[9]) {
+
+        elemento.id = 'cor10';
+    }
+    if (desejo === especificação.cor[10]) {
+
+        elemento.id = 'cor11';
+    }
+    if (desejo === especificação.cor[11]) {
+
+        elemento.id = 'cor12';
+    }
+    if (desejo === especificação.cor[12]) {
+
+        elemento.id = 'cor13';
+    }
+    if (desejo === especificação.cor[13]) {
+
+        elemento.id = 'cor14';
+    }
+    if (desejo === especificação.cor[14] || desejo === especificação.cor[15]) {
+
+        elemento.id = 'cor15';
+    }
+    if (desejo === especificação.cor[16]) {
+
+        elemento.id = 'cor16';
+    }
+    if (desejo === especificação.cor[17]) {
+
+        elemento.id = 'cor17';
+    }
+    if (desejo === especificação.cor[18]
+        || desejo === especificação.cor[19]
+        || desejo === especificação.cor[20]
+        || desejo === especificação.cor[26]) {
+
+            elemento.id = 'cor18';
+    }
+    if (desejo === especificação.cor[21]) {
+
+        elemento.id = 'cor19';
+    }
+    if (desejo === especificação.cor[22]
+        || desejo === especificação.cor[23]) {
+
+            elemento.id = 'cor20';
+    }
+    if (desejo === especificação.cor[24]) {
+
+        elemento.id = 'cor21';
+    }
+    if (desejo === especificação.cor[25]) {
+
+        elemento.id = 'cor22';
+    }
+    if (desejo === especificação.cor[27]) {
+
+        elemento.id = 'cor23';
+    }
+    if (desejo === especificação.cor[28]) {
+
+        elemento.id = 'cor24';
+    }
+    if (desejo === especificação.cor[29]) {
+
+        elemento.id = 'cor25';
+    }
+
+    if (desejo === especificação.cor[30]
+        || desejo === especificação.cor[31]) {
+
+            elemento.id = 'cor26';
+    }
+    if (desejo === especificação.cor[32]) {
+
+        elemento.id = 'cor27';
+    }
+    if (desejo === especificação.cor[33]) {
+
+        elemento.id = 'cor28';
+    }
+    if (desejo === especificação.cor[34]) {
+
+        elemento.id = 'cor29';
+    }
+    if (desejo === especificação.cor[35]) {
+        
+        elemento.id = 'cor30';
+        
+    }
+}
 
 function mudaFundo(desejo) {
 
