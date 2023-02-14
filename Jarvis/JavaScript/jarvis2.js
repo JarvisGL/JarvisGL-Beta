@@ -635,6 +635,7 @@ function mudaFundo(desejo) {
     }
 }
 //Oi!! Você me achou! merece um prêmio! você está sendo desafiado para uma partida de mario kart!
+
 function texto(desejo) {
 
     if (desejo === especificação.texto[0]
@@ -648,7 +649,7 @@ function texto(desejo) {
         divsoria.appendChild(teste2);
 
         let corTexto = prompt('qual a cor desejada no texto?');
-        colorMuda(corTexto, teste2);
+        mudaCorTxt(corTexto, teste2);
        
     }
 }
