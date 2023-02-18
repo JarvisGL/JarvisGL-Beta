@@ -675,7 +675,7 @@ function texto(desejo) {
         let divsoria = document.getElementById('divBefore');
 
         let teste2 = document.createElement('p');
-        teste2.title(ifTexto);
+        teste2.title = ifTexto;
         divsoria.appendChild(teste2);
 
         let corTexto = prompt('qual a cor desejada no texto?');
