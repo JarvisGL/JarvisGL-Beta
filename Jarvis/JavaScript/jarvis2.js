@@ -527,7 +527,7 @@ function mudaCorTxt(desejo, elemento) {
     }
     if (desejo === especificação.cor[17]) {
 
-        var corId17 =document.getElementById('cor17');
+        var corId17 = document.getElementById('cor17');
         elemento.id = corId17;
     }
     if (desejo === especificação.cor[18]
@@ -535,71 +535,71 @@ function mudaCorTxt(desejo, elemento) {
         || desejo === especificação.cor[20]
         || desejo === especificação.cor[26]) {
 
-            var corId18 =document.getElementById('cor18');
+            var corId18 = document.getElementById('cor18');
             elemento.id = corId18;
     }
     if (desejo === especificação.cor[21]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor19;
+        var corId19 = document.getElementById('cor19');
+        elemento.id = corId19;
     }
     if (desejo === especificação.cor[22]
         || desejo === especificação.cor[23]) {
 
-            var corId1=document.getElementById('cor1');
-            elemento.id = cor20;
+            var corId20 = document.getElementById('cor20');
+            elemento.id = corId20;
     }
     if (desejo === especificação.cor[24]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor21;
+        var corId21 = document.getElementById('cor21');
+        elemento.id = corId21;
     }
     if (desejo === especificação.cor[25]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor22;
+        var corId22 = document.getElementById('cor22');
+        elemento.id = corId22;
     }
     if (desejo === especificação.cor[27]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor23;
+        var corId23 = document.getElementById('cor23');
+        elemento.id = corId23;
     }
     if (desejo === especificação.cor[28]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor24;
+        var corId24= document.getElementById('cor24');
+        elemento.id = corId24;
     }
     if (desejo === especificação.cor[29]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor25;
+        var corId25= document.getElementById('cor25');
+        elemento.id = corId25;
     }
 
     if (desejo === especificação.cor[30]
         || desejo === especificação.cor[31]) {
 
-            var corId1=document.getElementById('cor1');
-            elemento.id = cor26;
+            var corId26 = document.getElementById('cor26');
+            elemento.id = corId26;
     }
     if (desejo === especificação.cor[32]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor27;
+        var corId27 = document.getElementById('cor27');
+        elemento.id = corId27;
     }
     if (desejo === especificação.cor[33]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor28;
+        var corId28= document.getElementById('cor28');
+        elemento.id = corId28;
     }
     if (desejo === especificação.cor[34]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor29;
+        var corId29 = document.getElementById('cor29');
+        elemento.id = corId29;
     }
     if (desejo === especificação.cor[35]) {
         
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor30; 
+        var corId30 = document.getElementById('cor30');
+        elemento.id = corId30; 
     }
 }
 
