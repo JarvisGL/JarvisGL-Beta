@@ -447,96 +447,96 @@ function mudaCorTxt(desejo, elemento) {
 
     if (desejo === especificação.cor[0]) {
 
-        var corId1=document.getElementById('cor1');
+        var corId1 = document.getElementById('cor1');
         elemento.id = corId1;
     }
     if (desejo === especificação.cor[1]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor2;
+        var corId2 = document.getElementById('cor2');
+        elemento.id = corId2;
     }
     if (desejo === especificação.cor[2]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor3;
+        var corId3 = document.getElementById('cor3');
+        elemento.id = corId3;
     }
     if (desejo === especificação.cor[3]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor4;
+        var corId4 = document.getElementById('cor4');
+        elemento.id = corId4;
     }
     if (desejo === especificação.cor[4]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor5;
+        var corId5 = document.getElementById('cor5');
+        elemento.id = corId5;
     }
     if (desejo === especificação.cor[5]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor6;
+        var corId6 = document.getElementById('cor6');
+        elemento.id = corId6;
     }
     if (desejo === especificação.cor[6]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor7;
+        var corId7 = document.getElementById('cor7');
+        elemento.id = corId7;
     }
     if (desejo === especificação.cor[7]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor8;
+        var corId8 = document.getElementById('cor8');
+        elemento.id = corId8;
     }
     if (desejo === especificação.cor[8]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor9;
+        var corId9 =document.getElementById('cor9');
+        elemento.id = corId9;
     }
     if (desejo === especificação.cor[9]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor10;
+        var corId10 = document.getElementById('cor10');
+        elemento.id = corId10;
     }
     if (desejo === especificação.cor[10]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor11;
+        var corId11 = document.getElementById('cor11');
+        elemento.id = corId11;
     }
     if (desejo === especificação.cor[11]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor12;
+        var corId12 = document.getElementById('cor12');
+        elemento.id = corId12;
     }
     if (desejo === especificação.cor[12]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor13;
+        var corId13 = document.getElementById('cor13');
+        elemento.id = corId13;
     }
     if (desejo === especificação.cor[13]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor14;
+        var corId14 = document.getElementById('cor14');
+        elemento.id = corId14;
     }
     if (desejo === especificação.cor[14] || desejo === especificação.cor[15]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor15;
+        var corId15 = document.getElementById('cor15');
+        elemento.id = corId15;
     }
     if (desejo === especificação.cor[16]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor16;
+        var corId16 = document.getElementById('cor16');
+        elemento.id = corId16;
     }
     if (desejo === especificação.cor[17]) {
 
-        var corId1=document.getElementById('cor1');
-        elemento.id = cor17;
+        var corId17 =document.getElementById('cor17');
+        elemento.id = corId17;
     }
     if (desejo === especificação.cor[18]
         || desejo === especificação.cor[19]
         || desejo === especificação.cor[20]
         || desejo === especificação.cor[26]) {
 
-            var corId1=document.getElementById('cor1');
-            elemento.id = cor18;
+            var corId18 =document.getElementById('cor18');
+            elemento.id = corId18;
     }
     if (desejo === especificação.cor[21]) {
 
