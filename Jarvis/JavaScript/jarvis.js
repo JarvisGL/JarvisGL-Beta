@@ -15,50 +15,12 @@
     var aMenu = document.getElementById('txtMenu');
     var menu = document.getElementById('menu');
     
-    const especificação = {
-        afirmacoes: ['sim', 'não', 'nao', 'aham', 'talvez', 'claro'],
-        mudarCor: ['mudar a cor', 'mude a cor', 'mude cor', 'mudar cor', 'w', 'cor',
-            'eu quero mudar a cor', 'eu quero que mude a cor', 'quero mudar a cor'],
-        artigo: ['pra', 'para', 'e', 'o', 'com', 'a'],
-        cor: ['azul', 'verde', 'vermelho',
-            'cinza', 'preto', 'laranja', 'rosa',
-            'roxo', 'ciano', 'turquesa'],
-        texto: ['texto'],
-        corAdd: ['claro', 'escuro', 'marinho', 'shock'],
-        imagem: ['imagem', 'quero uma imagem', 'quero imagem', 'faz imagem'],
-        escolhaElement: [],
-        fazCanvas: ['canvas', 'faz desenho', 'fazer desenho', 'desenho',
-         'criar um desenho', 'criar canvas'],
-        formatoDesenho: {
-            circulo:['circulo', 'círculo', 'bola', 'redondo'],
-            retangulo: ['retangulo', 'retângulo'],
-            triangulo: ['triangulo', 'triângulo'], 
-            quadrado: ['quadrado'],
-            hexagono: ['hexagono']
-        },
-        criaBotao: ['fazer botão', 'fazer botao', 'criar botão',
-         'criar botao', 'botao', 'botão', 'eu quero um botão', 'eu quero um botao']
-    }
+    import {especificação} from 'jarvisEspecificacaoArray.js';
     
     var aviso = alert('AVISO! Responda a todas as perguntas do bot em minúsculo e com gramática correta, que o seu pedido seja realizado!');
     var nome = prompt('Olá! Me informe seu nome');
     var pedido = prompt(nome + ', seja bem vindo! O que você deseja?');
-    
-    
-    especificação.cor.push('amarelo', 'violeta', 'vinho', 'marrom', 'salmão',
-        'salmao', 'magenta', 'chocolate', 'lima', 'limão', 'limao', 'azul claro',
-        'azul escuro', 'azul marinho', 'verde claro', 'verde escuro', 'verde forte',
-        'rosa claro', 'rosa escuro', 'rosa shock', 'salmao claro', 'salmão claro',
-        'vermelho claro', 'vermelho escuro', 'cinza claro', 'branco');
-    
-    especificação.corAdd.push('forte');
-    
-    especificação.texto.push('quero um texto', 'faça um texto', 'faz texto');
-    
-    especificação.escolhaElement.push('fundo', 'cabecalho', 'cabeçalho', 'botão', 'botao')
-    
-   
-    
+ 
     function corMuda(desejo, elemento, funcao, parametro) {
     
         if (desejo === especificação.cor[0]) {

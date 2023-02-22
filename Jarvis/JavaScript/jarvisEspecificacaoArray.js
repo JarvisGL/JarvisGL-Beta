@@ -36,4 +36,4 @@ especificação.texto.push('quero um texto', 'faça um texto', 'faz texto');
 
 especificação.escolhaElement.push('fundo', 'cabecalho', 'cabeçalho', 'botão', 'botao');
 
-export especificação;
+export default especificação;
