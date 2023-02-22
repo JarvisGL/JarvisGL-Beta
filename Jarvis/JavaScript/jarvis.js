@@ -15,7 +15,7 @@
     var aMenu = document.getElementById('txtMenu');
     var menu = document.getElementById('menu');
     
-    import {especificação} from 'jarvisEspecificacaoArray.js';
+    import {especificação} from './jarvisEspecificacaoArray.js';
     
     var aviso = alert('AVISO! Responda a todas as perguntas do bot em minúsculo e com gramática correta, que o seu pedido seja realizado!');
     var nome = prompt('Olá! Me informe seu nome');
