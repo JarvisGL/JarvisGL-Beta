@@ -447,82 +447,82 @@ function mudaCorTxt(desejo, elemento) {
 
     if (desejo === especificação.cor[0]) {
 
-        var corId1 = document.getElementById('cor1');
+        var corId1 = document.getElementById('cor1').style.color = 'blue';
         elemento.id = corId1;
     }
     if (desejo === especificação.cor[1]) {
 
-        var corId2 = document.getElementById('cor2');
+        var corId2 = document.getElementById('cor2').style.color = 'green';
         elemento.id = corId2;
     }
     if (desejo === especificação.cor[2]) {
 
-        var corId3 = document.getElementById('cor3');
+        var corId3 = document.getElementById('cor3').style.color = 'red';
         elemento.id = corId3;
     }
     if (desejo === especificação.cor[3]) {
 
-        var corId4 = document.getElementById('cor4');
+        var corId4 = document.getElementById('cor4').style.color = 'gray';
         elemento.id = corId4;
     }
     if (desejo === especificação.cor[4]) {
 
-        var corId5 = document.getElementById('cor5');
+        var corId5 = document.getElementById('cor5').style.color = 'black';
         elemento.id = corId5;
     }
     if (desejo === especificação.cor[5]) {
 
-        var corId6 = document.getElementById('cor6');
+        var corId6 = document.getElementById('cor6').style.color = 'orange';
         elemento.id = corId6;
     }
     if (desejo === especificação.cor[6]) {
 
-        var corId7 = document.getElementById('cor7');
+        var corId7 = document.getElementById('cor7').style.color = 'hotPink';
         elemento.id = corId7;
     }
     if (desejo === especificação.cor[7]) {
 
-        var corId8 = document.getElementById('cor8');
+        var corId8 = document.getElementById('cor8').style.color = 'indigo';
         elemento.id = corId8;
     }
     if (desejo === especificação.cor[8]) {
 
-        var corId9 =document.getElementById('cor9');
+        var corId9 =document.getElementById('cor9').style.color = 'cyan';
         elemento.id = corId9;
     }
     if (desejo === especificação.cor[9]) {
 
-        var corId10 = document.getElementById('cor10');
+        var corId10 = document.getElementById('cor10').style.color = 'turquoise';
         elemento.id = corId10;
     }
     if (desejo === especificação.cor[10]) {
 
-        var corId11 = document.getElementById('cor11');
+        var corId11 = document.getElementById('cor11').style.color = 'yellow';
         elemento.id = corId11;
     }
     if (desejo === especificação.cor[11]) {
 
-        var corId12 = document.getElementById('cor12');
+        var corId12 = document.getElementById('cor12').style.color = 'slateBlue';
         elemento.id = corId12;
     }
     if (desejo === especificação.cor[12]) {
 
-        var corId13 = document.getElementById('cor13');
+        var corId13 = document.getElementById('cor13').style.color = 'blue';
         elemento.id = corId13;
     }
     if (desejo === especificação.cor[13]) {
 
-        var corId14 = document.getElementById('cor14');
+        var corId14 = document.getElementById('cor14').style.color = 'blue';
         elemento.id = corId14;
     }
     if (desejo === especificação.cor[14] || desejo === especificação.cor[15]) {
 
-        var corId15 = document.getElementById('cor15');
+        var corId15 = document.getElementById('cor15').style.color = 'blue';
         elemento.id = corId15;
     }
     if (desejo === especificação.cor[16]) {
 
-        var corId16 = document.getElementById('cor16');
+        var corId16 = document.getElementById('cor16').style.color = 'blue';
         elemento.id = corId16;
     }
     if (desejo === especificação.cor[17]) {
