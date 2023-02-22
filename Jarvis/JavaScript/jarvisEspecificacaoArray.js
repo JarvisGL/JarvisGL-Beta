@@ -36,12 +36,4 @@ especificação.texto.push('quero um texto', 'faça um texto', 'faz texto');
 
 especificação.escolhaElement.push('fundo', 'cabecalho', 'cabeçalho', 'botão', 'botao');
 
-var botaoMenu = document.getElementById('botao');
-var fundoTela = document.getElementById('tela');
-var corDoTexto = document.getElementById('texto');
-var cabecalho = document.getElementById('cabecalho');
-var itemUl = document.getElementById('item');
-var divBefore = document.getElementById('divBefore');
-var navMenu = document.getElementById('nav--Menu');
-var aMenu = document.getElementById('txtMenu');
-var menu = document.getElementById('menu');
+export especificação;
