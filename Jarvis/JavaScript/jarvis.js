@@ -405,11 +405,11 @@
     
     
     mudaFundo(pedido);
-    texto(pedido);
+   /* texto(pedido);
     addImg(pedido);
     fazBotao(pedido);
     criaCanvas(pedido);
-    adicional();
+    adicional();*/
     
     
 
