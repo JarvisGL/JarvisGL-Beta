@@ -656,8 +656,9 @@ function mudaFundo(desejo) {
         if (corOuImg === especificação.imagem[0]) {
             let imgLinkFundo = prompt('coloque o link da imagem desejada');
             let imgFundo = createElement('img');
+            let imgCSS = getElementById('imgFundoCSS');
             imgFundo.href = imgLinkFundo;
-            imgFundo.id = imgFundoCss;
+            imgFundo.id = imgCSS;
             fundoTela.style.background = imgLinkFundo;
             
         }
