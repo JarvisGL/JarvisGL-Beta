@@ -446,15 +446,15 @@ function colorMuda(desejo, elemento) {
 function mudaCorTxt(desejo, elemento) {
 
     if (desejo === especificação.cor[0]) {
-
-        var corId1 = document.getElementById('cor1').style.color = 'blue';
-        elemento.id = corId1;
-    }
-    if (desejo === especificação.cor[1]) {
-
-        var corId2 = document.getElementById('cor2').style.color = 'green';
-        elemento.id = corId2;
-    }
+        var corId1 = document.getElementById('cor1');
+        corId1.style.color = 'blue';
+        elemento.id = corId1.id;
+      }
+      if (desejo === especificação.cor[1]) {
+        var corId2 = document.getElementById('cor2');
+        corId2.style.color = 'Green';
+        elemento.id = corId2.id;
+      }
     if (desejo === especificação.cor[2]) {
 
         var corId3 = document.getElementById('cor3').style.color = 'red';
