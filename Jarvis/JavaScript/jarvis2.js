@@ -694,8 +694,8 @@ function addImg(desejo) {
         || desejo === especificação.imagem[2] 
         || desejo === especificação.imagem[3]) {
            var selectImg = prompt('Coloque o link da imagem aqui por favor');
-           divsoria.appendChild(img);
             img.src = selectImg;
+            divsoria.appendChild(img);
     }
     
 }
