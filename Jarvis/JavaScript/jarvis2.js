@@ -449,7 +449,7 @@ function mudaCorTxt(desejo, elemento) {
         var corId1 = document.getElementById('cor1');
         corId1.style.color = 'blue';
         elemento.id = corId1.id;
-      }
+      }}/*
       if (desejo === especificação.cor[1]) {
         var corId2 = document.getElementById('cor2');
         corId2.style.color = 'Green';
@@ -601,7 +601,7 @@ function mudaCorTxt(desejo, elemento) {
         var corId30 = document.getElementById('cor30');
         elemento.id = corId30; 
     }
-}
+}*/
 
 function mudaFundo(desejo) {
 
