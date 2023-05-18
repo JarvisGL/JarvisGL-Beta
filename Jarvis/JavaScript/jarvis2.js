@@ -28,9 +28,8 @@ const especificação = {
         quadrado: ['quadrado'],
         hexagono: ['hexagono']
     },
-    criaBotao: ['fazer botão', 'fazer botao', 'criar botão',
-     'criar botao', 'botao', 'botão', 'eu quero um botão', 'eu quero um botao'],
-    tabela: ['tabela', 'faz tabela', 'fazer tabela', 'fazer uma tabela']
+    criaBotao: ['bot'],
+    tabela: ['tabela']
 }
 
 var aviso = alert('AVISO! Responda a todas as perguntas do bot em minúsculo e com gramática correta, que o seu pedido seja realizado!');
@@ -688,14 +687,7 @@ function addImg(desejo) {
 }
 
 function fazBotao(desejo) {
-    if (desejo === especificação.criaBotao[0] 
-        || desejo === especificação.criaBotao[1] 
-        || desejo === especificação.criaBotao[2] 
-        || desejo === especificação.criaBotao[3] 
-        || desejo === especificação.criaBotao[4] 
-        || desejo === especificação.criaBotao[5] 
-        || desejo === especificação.criaBotao[6] 
-        || desejo === especificação.criaBotao[7]) {
+    if (desejo.includes(especificação.criaBotao[0])) {
         
             var fazA = document.createElement('a');
             var ifBotao = document.createElement('button');
