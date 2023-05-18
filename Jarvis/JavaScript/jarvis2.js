@@ -443,11 +443,12 @@ function colorMuda(desejo, elemento) {
     }
 }
 
-function mudaCorTxt(desejo) {
+/*function mudaCorTxt(desejo, elemento) {
 
     if (desejo === especificação.cor[0]) {
-        var corAzul = document.querySelector(".corAzul").style.color = "blue";
-      }}/*
+        var corAzul = document.querySelector(".corAzul");
+        corAzul.style.color = "blue";
+      }}
       if (desejo === especificação.cor[1]) {
         var corId2 = document.getElementById('cor2');
         corId2.style.color = 'Green';
