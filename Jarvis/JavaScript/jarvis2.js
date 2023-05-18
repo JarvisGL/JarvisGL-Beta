@@ -601,7 +601,7 @@ function colorMuda(desejo, elemento) {
 
 function mudaFundo(desejo) {
 
-    if (desejo.includes(especificação.mudarCor[1] || desejo === especificação.mudarCor[0])) {
+    if (desejo.includes(especificação.mudarCor[1]) || desejo === especificação.mudarCor[0]) {
         let escolhaCor = prompt('você deseja mudar a cor de fundo, cabecalho ou do botão?');
         let corOuImg = prompt('Gostaria de mudar a cor ou colocar uma imagem de fundo?');
        if(corOuImg === 'cor') {
