@@ -443,12 +443,10 @@ function colorMuda(desejo, elemento) {
     }
 }
 
-function mudaCorTxt(desejo, elemento) {
+function mudaCorTxt(desejo) {
 
     if (desejo === especificação.cor[0]) {
-        var corId1 = document.getElementById('cor1');
-        corId1.style.color = 'blue';
-        elemento.id = corId1;
+        var corAzul = document.querySelector(".corAzul").style.backgroundColor = "blue";
       }}/*
       if (desejo === especificação.cor[1]) {
         var corId2 = document.getElementById('cor2');
@@ -677,11 +675,12 @@ function texto(desejo) {
 
        // let teste3 = document.createElement('p');
        let teste2 = document.createTextNode(ifTexto);
+       teste2.id = 'corAzul';
       //  teste2.title = ifTexto;
         divsoria.appendChild(teste2);
 
         let corTexto = prompt('qual a cor desejada no texto?');
-        mudaCorTxt(corTexto, teste2);
+        mudaCorTxt(corTexto);
        
     }
 }
