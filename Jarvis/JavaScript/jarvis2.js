@@ -1020,6 +1020,13 @@ function criaTabela(desejo) {
     }
 }
 
+function createForms(desejo) {
+    const formsArray = ['form'];
+    if (desejo.includes(formsArray)) {
+        
+    }
+}
+
 function adicional() {
 
     let pedido2 = prompt('Deseja mais alguma coisa?');
