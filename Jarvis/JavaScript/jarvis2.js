@@ -446,7 +446,7 @@ function colorMuda(desejo, elemento) {
 function mudaCorTxt(desejo) {
 
     if (desejo === especificação.cor[0]) {
-        var corAzul = document.querySelector(".corAzul").style.backgroundColor = "blue";
+        var corAzul = document.querySelector(".corAzul").style.color = "blue";
       }}/*
       if (desejo === especificação.cor[1]) {
         var corId2 = document.getElementById('cor2');
