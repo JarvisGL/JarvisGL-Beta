@@ -11,9 +11,7 @@ var menu = document.getElementById('menu');
 
 const especificação = {
     afirmacoes: ['sim', 'não', 'nao', 'aham', 'talvez', 'claro'],
-    mudarCor: ['mudar a cor', 'mude a cor', 'mude cor', 'mudar cor', 'w', 'cor',
-        'eu quero mudar a cor', 'eu quero que mude a cor', 'quero mudar a cor'],
-    artigo: ['pra', 'para', 'e', 'o', 'com', 'a'],
+    mudarCor: ['w', 'cor'],
     cor: ['azul', 'verde', 'vermelho',
         'cinza', 'preto', 'laranja', 'rosa',
         'roxo', 'ciano', 'turquesa'],
@@ -604,15 +602,7 @@ function colorMuda(desejo, elemento) {
 
 function mudaFundo(desejo) {
 
-    if (desejo === especificação.mudarCor[0]
-        || desejo === especificação.mudarCor[1]
-        || desejo === especificação.mudarCor[2]
-        || desejo === especificação.mudarCor[3]
-        || desejo === especificação.mudarCor[4]
-        || desejo === especificação.mudarCor[5]
-        || desejo === especificação.mudarCor[6]
-        || desejo === especificação.mudarCor[7]
-        || desejo === especificação.mudarCor[8]) {
+    if (desejo.includes(especificação.mudarCor[1] || desejo === especificação.mudarCor[0])) {
         let escolhaCor = prompt('você deseja mudar a cor de fundo, cabecalho ou do botão?');
         let corOuImg = prompt('Gostaria de mudar a cor ou colocar uma imagem de fundo?');
        if(corOuImg === 'cor') {
