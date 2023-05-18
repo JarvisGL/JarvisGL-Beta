@@ -17,7 +17,7 @@ const especificação = {
         'roxo', 'ciano', 'turquesa'],
     texto: ['texto'],
     corAdd: ['claro', 'escuro', 'marinho', 'shock'],
-    imagem: ['imagem', 'quero uma imagem', 'quero imagem', 'faz imagem'],
+    imagem: ['imagem'],
     escolhaElement: [],
     fazCanvas: ['canvas', 'faz desenho', 'fazer desenho', 'desenho',
      'criar um desenho', 'criar canvas'],
@@ -642,7 +642,7 @@ function mudaFundo(desejo) {
             
                     corBotao(botaoMenu);
         }}
-        if (corOuImg === especificação.imagem[0]) {
+        if (corOuImg.includes(especificação.imagem[0])) {
             let imgLinkFundo = prompt('coloque o link da imagem desejada');
             let imgFundo = createElement('img');
             let imgCSS = getElementById('imgFundoCSS');
@@ -679,10 +679,7 @@ function texto(desejo) {
 function addImg(desejo) {
     
     var img = document.createElement('img');
-    if (desejo === especificação.imagem[0] 
-        || desejo === especificação.imagem[1] 
-        || desejo === especificação.imagem[2] 
-        || desejo === especificação.imagem[3]) {
+    if (desejo.includes(especificação.imagem[0])) {
            var selectImg = prompt('Coloque o link da imagem aqui por favor');
             img.src = selectImg;
             divsoria.appendChild(img);
@@ -830,10 +827,7 @@ function criaCanvas(desejo) {
 
 function criaTabela(desejo) {
 
-    if (desejo === especificação.tabela[0] 
-        || desejo === especificação.tabela[1] 
-        || desejo === especificação.tabela[2] 
-        || desejo === especificação.tabela[3]) {
+    if (desejo.includes(especificação.tabela[0])) {
         var colunaTab = prompt('quantas colunas sua tabela terá?');
 
         function nColunas(numero) {
