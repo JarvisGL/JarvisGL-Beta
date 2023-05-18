@@ -1023,7 +1023,7 @@ function criaTabela(desejo) {
 function createForms(desejo) {
     const formsArray = ['form'];
     if (desejo.includes(formsArray)) {
-        
+        document.write('funciona!!!!');
     }
 }
 
@@ -1036,6 +1036,7 @@ function adicional() {
     fazBotao(pedido2);
     criaCanvas(pedido2);
     criaTabela(pedido2);
+    createForms(pedido2);
     if (pedido2 === especificação.afirmacoes[0]
         || pedido2 === especificação.afirmacoes[3]
         || pedido2 === especificação.afirmacoes[5]) {
@@ -1047,6 +1048,7 @@ function adicional() {
         fazBotao(pedido3);
         criaCanvas(pedido3);
         criaTabela(pedido3);
+        createForms(pedido3);
 
         while(pedido2 === especificação.afirmacoes[0]
             || pedido2 === especificação.afirmacoes[3]
@@ -1065,6 +1067,7 @@ addImg(pedido);
 fazBotao(pedido);
 criaCanvas(pedido);
 criaTabela(pedido);
+createForms(pedido);
 adicional();
 
 
