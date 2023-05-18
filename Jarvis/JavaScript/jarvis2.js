@@ -448,7 +448,7 @@ function mudaCorTxt(desejo, elemento) {
     if (desejo === especificação.cor[0]) {
         var corId1 = document.getElementById('cor1');
         corId1.style.color = 'blue';
-        elemento.id = corId1.id;
+        elemento.id = corId1;
       }}/*
       if (desejo === especificação.cor[1]) {
         var corId2 = document.getElementById('cor2');
