@@ -1004,7 +1004,7 @@ function formTxt() {
 function createForms(desejo) {
     const formsArray = ['form'];
     if (desejo.includes(formsArray)) {
-        const typeForm = alert('Quais tipos de formulário você deseja?');
+        const typeForm = prompt('Quais tipos de formulário você deseja?');
         if(typeForm.includes('text')) {
             formTxt();
         }
