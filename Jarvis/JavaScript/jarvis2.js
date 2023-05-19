@@ -997,7 +997,7 @@ function criaTabela(desejo) {
 }
 
 function formTxt() {
-    const criaFormTxt = createElement('input');
+    const criaFormTxt = document.createElement('input');
     criaFormTxt.appendChild('type="text"');
 }
 
