@@ -996,10 +996,18 @@ function criaTabela(desejo) {
     }
 }
 
+function formTxt() {
+    const criaFormTxt = createElement('input');
+    criaFormTxt.appendChild('type="text"');
+}
+
 function createForms(desejo) {
     const formsArray = ['form'];
     if (desejo.includes(formsArray)) {
-        document.write('funciona!!!!');
+        const typeForm = alert('Quais tipos de formulário você deseja?');
+        if(typeForm.includes('text')) {
+            formTxt();
+        }
     }
 }
 
