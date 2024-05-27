@@ -47,7 +47,7 @@ especificação.corAdd.push('forte');
 
 especificação.texto.push('quero um texto', 'faça um texto', 'faz texto');
 
-especificação.escolhaElement.push('fundo', 'cabecalho', 'cabeçalho', 'botão', 'botao')
+especificação.escolhaElement.push('fundo', 'cabecalho', 'cabeçalho', 'botão', 'botao');
 
 function corMudaCanvas(desejo, elemento) {
 
