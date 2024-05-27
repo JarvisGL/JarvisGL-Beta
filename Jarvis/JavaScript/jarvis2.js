@@ -8,6 +8,7 @@ var divBefore = document.getElementById('divBefore');
 var navMenu = document.getElementById('nav--Menu');
 var aMenu = document.getElementById('txtMenu');
 var menu = document.getElementById('menu');
+var nomeSiteIdJS = document.getElementById('nomeSiteId');
 
 const especificação = {
     afirmacoes: ['sim', 'não', 'nao', 'aham', 'talvez', 'claro'],
@@ -34,6 +35,7 @@ const especificação = {
 
 var aviso = alert('AVISO! Responda a todas as perguntas do bot em minúsculo e com gramática correta, que o seu pedido seja realizado!');
 var nome = prompt('Olá! Me informe seu nome');
+var nomeSite = prompt('Qual será o nome do site?');
 var pedido = prompt(nome + ', seja bem vindo! O que você deseja?');
 
 
@@ -48,6 +50,12 @@ especificação.corAdd.push('forte');
 especificação.texto.push('quero um texto', 'faça um texto', 'faz texto');
 
 especificação.escolhaElement.push('fundo', 'cabecalho', 'cabeçalho', 'botão', 'botao');
+
+function fazNomeSite() {
+
+    document.title = nomeSite;
+    nomeSiteIdJS = nomeSite;
+}
 
 function corMudaCanvas(desejo, elemento) {
 
