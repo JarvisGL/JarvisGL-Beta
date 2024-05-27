@@ -997,7 +997,8 @@ function criaTabela(desejo) {
 }
 
 function formTxt() {
-    const criaFormTxt = document.createElement('input');
+// Olhe a folha, esta na gaveta, ou olhe o quadro de avisos do animal crossing...
+	const criaFormTxt = document.createElement('input');
     criaFormTxt.par
 }
 
